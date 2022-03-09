@@ -32,14 +32,19 @@ if (media > 20) {
 
 for(var index=1; index <= 25; index++){
     sequencia.push(index);
+ 
 }
 
 
+for (var i2=0;i2<sequencia.length;i2++){
+    var resultado = sequencia[i2]/2;
+    console.log(resultado)
+    
+
+}
 
 
-
-
-console.log("criação sequencia de 1 a 25 :"+ sequencia);
+console.log("divisão da sequencia por 2  de 1 a 25 :"+ sequencia);
 console.log("o menor valor do array he " + menor);
 console.log("o maior valor do array he " + maior);
 console.log("a soma de todos os vares do array " + soma);
